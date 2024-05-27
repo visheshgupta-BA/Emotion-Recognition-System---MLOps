@@ -1,0 +1,11 @@
+### ================================================================
+###             MODEL EVALUATION CONFIGURATION
+### ================================================================
+
+model_trainer:
+  root_dir: /gcs/artifacts-speech-emotion/model_training
+  test_path: /gcs/artifacts-speech-emotion/data_transformation/test_data.parquet
+  model_path: gs://artifacts-speech-emotion/model_training/model_export
+  encoder_path: /gcs/artifacts-speech-emotion/model_training/encoder.bin
+  confusion_matrix_path: /gcs/artifacts-speech-emotion/model_evaluation
+  
